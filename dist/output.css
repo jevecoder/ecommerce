@@ -86,4 +86,6 @@
 }
 
 
-
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Para sa Chrome, Safari, at Opera */
+}

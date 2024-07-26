@@ -1,22 +1,6 @@
 <?php
 include 'connection.php';
 session_start();
-
-// if (!isset($_SESSION['user_id']) || $_SESSION['user_role'] !== 'admin') {
-//     header("Location: index.php");
-//     exit();
-// }
-
-// echo "Welcome to the admin dashboard!";
-
-// if (!isset($_SESSION['user_id']) || $_SESSION['user_role'] !== 'user') {
-//     header("Location: index.php");
-//     exit();
-// }
-
-// echo "Welcome to your dashboard!";
-
-
 ?>
 
 <!DOCTYPE html>
